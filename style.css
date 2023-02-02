@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-color: #2d2013;
+  color: white;
+}
+
+/* header heading section */
+#heading {
+  margin-top: 70px;
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#nav {
+  box-shadow: var(--box-shadow);
+  background-color: #23180d;
+}
+
+.navbar-brand,
+.fa-facebook,
+.fa-instagram {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.7rem;
+  color: crimson;
+}
+
+.navbar-brand i {
+  color: aliceblue;
+}
+
+.fa-instagram {
+  position: absolute;
+  right: 80px;
+  top: 20px;
+}
+.fa-facebook {
+  position: absolute;
+  right: 115px;
+  top: 20px;
+}
+
+.navbar-toggler {
+  background-color: crimson;
+}
+
+/* header search bar section */
+#search-bar {
+  max-width: 600px;
+  margin-top: 0 !important;
+}
+
+#search-bar input {
+  height: 50px;
+  border-radius: 20px;
+}
+
+/* meal card */
+#card {
+  background-color: #dc3545;
+  padding: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+  border-radius: 50%;
+}
+
+/* meal details container */
+#meal-details {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #4a2a17;
+}
+#meal-header {
+  width: 70%;
+  margin: auto;
+}
+#meal-thumbail img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+#meal-instruction {
+  margin: auto;
+  text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body {
+  background-color: #2d2013;
+}
