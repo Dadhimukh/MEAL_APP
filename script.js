@@ -239,7 +239,7 @@ function showMealList() {
                   <div class="container">
                       <div class="row justify-content-center">
                           <div class="col-md-12 text-center">
-                              <span class="display-1 d-block">404</span>
+                              <span class="display-1 d-block"></span>
                               <div class="mb-4 lead">
                                   The meal you are looking for was not found.
                               </div>
